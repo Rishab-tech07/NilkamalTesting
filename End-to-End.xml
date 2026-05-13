@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NilKamal Testing" useDefaultListeners="false">
+
+	<listeners>
+		<listener class-name="listeners.TestListener" />
+		<listener class-name="listeners.ExtentReportManager" />
+	</listeners>
+
+
+	<test name="End-to-End Test">
+		<classes>
+
+			<class name="tests.HomePageTest" />
+			<class name="tests.LoginPageTest" />
+			<class name="tests.ProductListPageTest" />
+			<class name="tests.ProductPageTest" />
+			<class name="tests.CartPageTest" />
+			<class name="tests.CheckoutPageTest" />
+		</classes>
+	</test>
+</suite> 

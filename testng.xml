@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NilKamal Testing" useDefaultListeners="false">
+
+	<listeners>
+		<listener class-name="listeners.TestListener" />
+		<listener class-name="listeners.ExtentReportManager" />
+	</listeners>
+	
+	<!--=========== Filter Scenario ============-->
+
+	<!--<test thread-count="5" name="Filter Test">
+
+		<parameter name="browser" value="chrome" />
+
+		<groups>
+            <run>
+                <include name="filter"/>
+            </run>
+        </groups>
+
+		<classes>
+			<class name="tests.ProductListPageTest"/>
+		</classes>
+
+	</test> -->
+	
+	<!--=========== login Scenario ============-->
+	
+	<!-- --><test name="Login Test">
+		<groups>
+            <run>
+                <include name="login"/>
+                
+            </run>
+        </groups>
+	
+        <classes>
+        	
+        	<class name = "tests.LoginPageTest"/>
+        </classes>
+    </test>
+    
+    
+    <!--=========== Pincode Scenario ============-->
+    
+    <!--<test name="Pincode Test">
+		<groups>
+            <run>
+                <include name="search"/>
+                <include name="clickOnProduct"/>
+                <include name="pincode"/>
+            </run>
+        </groups>
+	
+        <classes>
+        	
+        	<class name="tests.HomePageTest"/>
+			<class name="tests.ProductListPageTest"/>
+			<class name="tests.ProductPageTest"/>
+        </classes>
+    </test>-->
+    
+    
+</suite>
+
