@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="32" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-13T11:57:43 IST" name="NilKamal Testing" finished-at="2026-05-13T11:59:28 IST" duration-ms="105101">
+    <groups>
+      <group name="filter">
+        <method signature="ProductListPageTest.verifyProductList()[pri:0, instance:tests.ProductListPageTest@62ddbd7e]" name="verifyProductList" class="tests.ProductListPageTest"/>
+        <method signature="ProductListPageTest.verifyPriceFilterWorks()[pri:1, instance:tests.ProductListPageTest@62ddbd7e]" name="verifyPriceFilterWorks" class="tests.ProductListPageTest"/>
+        <method signature="ProductListPageTest.verifyCategoryFilterWorks()[pri:2, instance:tests.ProductListPageTest@62ddbd7e]" name="verifyCategoryFilterWorks" class="tests.ProductListPageTest"/>
+        <method signature="ProductListPageTest.verifyMaterialFilterWorks()[pri:3, instance:tests.ProductListPageTest@62ddbd7e]" name="verifyMaterialFilterWorks" class="tests.ProductListPageTest"/>
+        <method signature="ProductListPageTest.verifySortBy()[pri:4, instance:tests.ProductListPageTest@62ddbd7e]" name="verifySortBy" class="tests.ProductListPageTest"/>
+        <method signature="ProductListPageTest.navigatesToProductPage()[pri:5, instance:tests.ProductListPageTest@62ddbd7e]" name="navigatesToProductPage" class="tests.ProductListPageTest"/>
+      </group> <!-- filter -->
+      <group name="pincode">
+        <method signature="ProductPageTest.verifyProductPage()[pri:0, instance:tests.ProductPageTest@1a677343]" name="verifyProductPage" class="tests.ProductPageTest"/>
+        <method signature="ProductPageTest.pinCodeTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ProductPageTest@1a677343]" name="pinCodeTest" class="tests.ProductPageTest"/>
+        <method signature="ProductPageTest.verifyWishlistCnt()[pri:2, instance:tests.ProductPageTest@1a677343]" name="verifyWishlistCnt" class="tests.ProductPageTest"/>
+        <method signature="ProductPageTest.verifyWishlistPage()[pri:3, instance:tests.ProductPageTest@1a677343]" name="verifyWishlistPage" class="tests.ProductPageTest"/>
+        <method signature="ProductPageTest.addToCart()[pri:4, instance:tests.ProductPageTest@1a677343]" name="addToCart" class="tests.ProductPageTest"/>
+      </group> <!-- pincode -->
+      <group name="search">
+        <method signature="HomePageTest.verifyHomePageLogo()[pri:1, instance:tests.HomePageTest@9d5509a]" name="verifyHomePageLogo" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.verifySearchFunctionality()[pri:2, instance:tests.HomePageTest@9d5509a]" name="verifySearchFunctionality" class="tests.HomePageTest"/>
+      </group> <!-- search -->
+      <group name="clickOnProduct">
+        <method signature="ProductListPageTest.navigatesToProductPage()[pri:5, instance:tests.ProductListPageTest@62ddbd7e]" name="navigatesToProductPage" class="tests.ProductListPageTest"/>
+      </group> <!-- clickOnProduct -->
+      <group name="login">
+        <method signature="LoginPageTest.verifyLoginNavigation()[pri:0, instance:tests.LoginPageTest@4116aac9]" name="verifyLoginNavigation" class="tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginPageVerification()[pri:1, instance:tests.LoginPageTest@4116aac9]" name="LoginPageVerification" class="tests.LoginPageTest"/>
+        <method signature="LoginPageTest.login(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginPageTest@4116aac9]" name="login" class="tests.LoginPageTest"/>
+        <method signature="LoginPageTest.clickLogo()[pri:3, instance:tests.LoginPageTest@4116aac9]" name="clickLogo" class="tests.LoginPageTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2026-05-13T11:57:43 IST" name="End-to-End Test" finished-at="2026-05-13T11:59:28 IST" duration-ms="105101">
+      <class name="tests.CheckoutPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutPageTest@489115ef]" started-at="2026-05-13T11:59:00 IST" name="setup" finished-at="2026-05-13T11:59:00 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutPageTest@489115ef]" started-at="2026-05-13T11:59:00 IST" name="testCheckoutFlow" data-provider="checkoutData" finished-at="2026-05-13T11:59:06 IST" duration-ms="5825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gowtham.dev@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gowtham]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Anna Nagar West]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Flat 204]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[600040,600001]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9876543210,9123456789]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NKCG500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutPageTest@489115ef]" started-at="2026-05-13T11:59:06 IST" name="testCheckoutFlow" data-provider="checkoutData" finished-at="2026-05-13T11:59:09 IST" duration-ms="2615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arjun.kumar01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Arjun]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[MG Road]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Flat 12B]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[560001,560034]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9012345678,9988776655]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NKCG500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutPageTest@489115ef]" started-at="2026-05-13T11:59:09 IST" name="testCheckoutFlow" data-provider="checkoutData" finished-at="2026-05-13T11:59:11 IST" duration-ms="2444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priya.sharma99@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sector 21]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Flat 302]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chandigarh]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Punjab]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[160022,160017]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9090909090,8888888888]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NKCG500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutPageTest@489115ef]" started-at="2026-05-13T11:59:11 IST" name="testCheckoutFlow" data-provider="checkoutData" finished-at="2026-05-13T11:59:14 IST" duration-ms="2623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul.verma88@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Andheri East]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Apt 7A]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[400069,400001]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9871234567,9123456780]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NKCG500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+        <test-method signature="testCheckoutFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutPageTest@489115ef]" started-at="2026-05-13T11:59:14 IST" name="testCheckoutFlow" data-provider="checkoutData" finished-at="2026-05-13T11:59:17 IST" duration-ms="2563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ananya.iyer77@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ananya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Iyer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[T Nagar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Flat 5C]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[600017,600033]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9001234567,9011122233]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NKCG500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFlow -->
+      </class> <!-- tests.CheckoutPageTest -->
+      <class name="tests.CartPageTest">
+        <test-method is-config="true" signature="basic_setup()[pri:0, instance:tests.CartPageTest@15de0b3c]" started-at="2026-05-13T11:58:59 IST" name="basic_setup" finished-at="2026-05-13T11:58:59 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basic_setup -->
+        <test-method signature="verifyCartPage()[pri:8, instance:tests.CartPageTest@15de0b3c]" started-at="2026-05-13T11:58:59 IST" name="verifyCartPage" finished-at="2026-05-13T11:58:59 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPage -->
+        <test-method signature="verifyProductCount()[pri:9, instance:tests.CartPageTest@15de0b3c]" started-at="2026-05-13T11:58:59 IST" name="verifyProductCount" finished-at="2026-05-13T11:58:59 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCount -->
+        <test-method signature="PriceValidation()[pri:10, instance:tests.CartPageTest@15de0b3c]" started-at="2026-05-13T11:59:00 IST" name="PriceValidation" finished-at="2026-05-13T11:59:00 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceValidation -->
+        <test-method signature="clickCheckOut()[pri:11, instance:tests.CartPageTest@15de0b3c]" started-at="2026-05-13T11:59:00 IST" name="clickCheckOut" finished-at="2026-05-13T11:59:00 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCheckOut -->
+      </class> <!-- tests.CartPageTest -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@9d5509a]" started-at="2026-05-13T11:57:44 IST" name="setUp" finished-at="2026-05-13T11:57:49 IST" duration-ms="5319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="basic_setup()[pri:0, instance:tests.HomePageTest@9d5509a]" started-at="2026-05-13T11:57:49 IST" name="basic_setup" finished-at="2026-05-13T11:57:56 IST" duration-ms="6478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basic_setup -->
+        <test-method signature="verifyHomePageLogo()[pri:1, instance:tests.HomePageTest@9d5509a]" started-at="2026-05-13T11:57:56 IST" name="verifyHomePageLogo" finished-at="2026-05-13T11:58:02 IST" duration-ms="6630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLogo -->
+        <test-method signature="verifySearchFunctionality()[pri:2, instance:tests.HomePageTest@9d5509a]" started-at="2026-05-13T11:58:03 IST" name="verifySearchFunctionality" finished-at="2026-05-13T11:58:05 IST" duration-ms="2419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@9d5509a]" started-at="2026-05-13T11:59:17 IST" name="tearDown" finished-at="2026-05-13T11:59:28 IST" duration-ms="11054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.ProductListPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductListPageTest@62ddbd7e]" started-at="2026-05-13T11:58:23 IST" name="setup" finished-at="2026-05-13T11:58:26 IST" duration-ms="3054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductList()[pri:0, instance:tests.ProductListPageTest@62ddbd7e]" started-at="2026-05-13T11:58:26 IST" name="verifyProductList" finished-at="2026-05-13T11:58:27 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductList -->
+        <test-method signature="verifyPriceFilterWorks()[pri:1, instance:tests.ProductListPageTest@62ddbd7e]" started-at="2026-05-13T11:58:27 IST" name="verifyPriceFilterWorks" finished-at="2026-05-13T11:58:30 IST" duration-ms="3842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriceFilterWorks -->
+        <test-method signature="verifyCategoryFilterWorks()[pri:2, instance:tests.ProductListPageTest@62ddbd7e]" started-at="2026-05-13T11:58:31 IST" name="verifyCategoryFilterWorks" finished-at="2026-05-13T11:58:34 IST" duration-ms="3218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoryFilterWorks -->
+        <test-method signature="verifyMaterialFilterWorks()[pri:3, instance:tests.ProductListPageTest@62ddbd7e]" started-at="2026-05-13T11:58:34 IST" name="verifyMaterialFilterWorks" finished-at="2026-05-13T11:58:37 IST" duration-ms="3301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMaterialFilterWorks -->
+        <test-method signature="verifySortBy()[pri:4, instance:tests.ProductListPageTest@62ddbd7e]" started-at="2026-05-13T11:58:37 IST" name="verifySortBy" finished-at="2026-05-13T11:58:40 IST" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortBy -->
+        <test-method signature="navigatesToProductPage()[pri:5, instance:tests.ProductListPageTest@62ddbd7e]" started-at="2026-05-13T11:58:40 IST" name="navigatesToProductPage" finished-at="2026-05-13T11:58:47 IST" duration-ms="6702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatesToProductPage -->
+      </class> <!-- tests.ProductListPageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="basic_setup()[pri:0, instance:tests.LoginPageTest@4116aac9]" started-at="2026-05-13T11:58:05 IST" name="basic_setup" finished-at="2026-05-13T11:58:06 IST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basic_setup -->
+        <test-method signature="verifyLoginNavigation()[pri:0, instance:tests.LoginPageTest@4116aac9]" started-at="2026-05-13T11:58:06 IST" name="verifyLoginNavigation" finished-at="2026-05-13T11:58:08 IST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginNavigation -->
+        <test-method signature="LoginPageVerification()[pri:1, instance:tests.LoginPageTest@4116aac9]" started-at="2026-05-13T11:58:08 IST" name="LoginPageVerification" finished-at="2026-05-13T11:58:08 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageVerification -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginPageTest@4116aac9]" started-at="2026-05-13T11:58:09 IST" name="login" data-provider="loginData" finished-at="2026-05-13T11:58:11 IST" duration-ms="2712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@yahho.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thisisthepassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginPageTest@4116aac9]" started-at="2026-05-13T11:58:11 IST" name="login" data-provider="loginData" finished-at="2026-05-13T11:58:12 IST" duration-ms="548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginPageTest@4116aac9]" started-at="2026-05-13T11:58:12 IST" name="login" data-provider="loginData" finished-at="2026-05-13T11:58:16 IST" duration-ms="3887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prabhatsingh27112001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wrongpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginPageTest@4116aac9]" started-at="2026-05-13T11:58:16 IST" name="login" data-provider="loginData" finished-at="2026-05-13T11:58:20 IST" duration-ms="3796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prabhatsingh27112001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asdf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickLogo()[pri:3, instance:tests.LoginPageTest@4116aac9]" started-at="2026-05-13T11:58:20 IST" name="clickLogo" finished-at="2026-05-13T11:58:23 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogo -->
+      </class> <!-- tests.LoginPageTest -->
+      <class name="tests.ProductPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:47 IST" name="setup" finished-at="2026-05-13T11:58:47 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductPage()[pri:0, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:47 IST" name="verifyProductPage" finished-at="2026-05-13T11:58:51 IST" duration-ms="4119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPage -->
+        <test-method signature="pinCodeTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:51 IST" name="pinCodeTest" data-provider="pincodeData" finished-at="2026-05-13T11:58:52 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please enter pincode to continue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pinCodeTest -->
+        <test-method signature="pinCodeTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:52 IST" name="pinCodeTest" data-provider="pincodeData" finished-at="2026-05-13T11:58:52 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please enter pincode to continue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pinCodeTest -->
+        <test-method signature="pinCodeTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:52 IST" name="pinCodeTest" data-provider="pincodeData" finished-at="2026-05-13T11:58:52 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[400 01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please enter pincode to continue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pinCodeTest -->
+        <test-method signature="pinCodeTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:52 IST" name="pinCodeTest" data-provider="pincodeData" finished-at="2026-05-13T11:58:53 IST" duration-ms="823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[999999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pincode is not serviceable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pinCodeTest -->
+        <test-method signature="pinCodeTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:53 IST" name="pinCodeTest" data-provider="pincodeData" finished-at="2026-05-13T11:58:54 IST" duration-ms="990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[190001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pincode is not serviceable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pinCodeTest -->
+        <test-method signature="pinCodeTest(java.lang.String,java.lang.String)[pri:1, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:54 IST" name="pinCodeTest" data-provider="pincodeData" finished-at="2026-05-13T11:58:55 IST" duration-ms="1028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[400001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FREE DELIVERY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pinCodeTest -->
+        <test-method signature="verifyWishlistCnt()[pri:2, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:55 IST" name="verifyWishlistCnt" finished-at="2026-05-13T11:58:55 IST" duration-ms="146" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[wishlist failed expected [0] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: wishlist failed expected [0] but found [1]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at tests.ProductPageTest.verifyWishlistCnt(ProductPageTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWishlistCnt -->
+        <test-method signature="verifyWishlistPage()[pri:3, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:56 IST" name="verifyWishlistPage" finished-at="2026-05-13T11:58:56 IST" depends-on-methods="tests.ProductPageTest.verifyWishlistCnt" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.ProductPageTest.verifyWishlistPage() on instance tests.ProductPageTest@1a677343 depends on not successfully finished methods 
+[tests.ProductPageTest.verifyWishlistCnt() on instance tests.ProductPageTest@1a677343]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.ProductPageTest.verifyWishlistPage() on instance tests.ProductPageTest@1a677343 depends on not successfully finished methods 
+[tests.ProductPageTest.verifyWishlistCnt() on instance tests.ProductPageTest@1a677343]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWishlistPage -->
+        <test-method signature="addToCart()[pri:4, instance:tests.ProductPageTest@1a677343]" started-at="2026-05-13T11:58:56 IST" name="addToCart" finished-at="2026-05-13T11:58:59 IST" duration-ms="2828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+      </class> <!-- tests.ProductPageTest -->
+    </test> <!-- End-to-End Test -->
+  </suite> <!-- NilKamal Testing -->
+</testng-results>

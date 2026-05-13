@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.TestListerner"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+<<<<<<< HEAD
+      <class name="tests.HomePageTest">
+=======
+      <class name="tests.CartPageTest">
+>>>>>>> origin
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginPageVerification"/>
+          <include name="tearDown"/>
+<<<<<<< HEAD
+          <include name="basic_setup"/>
+<<<<<<< HEAD
+          <include name="verifySearchFunctionality"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.ProductListPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="basic_setup"/>
+          <include name="verifyFiltersAndSorting"/>
+        </methods>
+      </class> <!-- tests.ProductListPageTest -->
+=======
+=======
+          <include name="PriceValidation"/>
+>>>>>>> 9ad98b32cd0b37cf31928a1e9ef27c10c24fb912
+        </methods>
+      </class> <!-- tests.CartPageTest -->
+>>>>>>> origin
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

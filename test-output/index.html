@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-NilKamal_Testing" class="navigator-link">
+              <span class="suite-name border-failed">NilKamal Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-NilKamal_Testing" class="navigator-link ">
+                    <span>C:\Project_hackathon\Hackathon_Project\End-to-End.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-NilKamal_Testing" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-NilKamal_Testing" class="navigator-link ">
+                    <span>5 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-NilKamal_Testing" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-NilKamal_Testing" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-NilKamal_Testing" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-NilKamal_Testing" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods, 1 failed,  1 skipped,  32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-NilKamal_Testing" class="hide-methods failed suite-NilKamal_Testing"> (hide)</a> <!-- hide-methods failed suite-NilKamal_Testing -->
+                      <a href="#" panel-name="suite-NilKamal_Testing" class="show-methods failed suite-NilKamal_Testing"> (show)</a> <!-- show-methods failed suite-NilKamal_Testing -->
+                    </span>
+                    <div class="method-list-content failed suite-NilKamal_Testing">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="verifyWishlistCnt">verifyWishlistCnt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-NilKamal_Testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-NilKamal_Testing" class="hide-methods skipped suite-NilKamal_Testing"> (hide)</a> <!-- hide-methods skipped suite-NilKamal_Testing -->
+                      <a href="#" panel-name="suite-NilKamal_Testing" class="show-methods skipped suite-NilKamal_Testing"> (show)</a> <!-- show-methods skipped suite-NilKamal_Testing -->
+                    </span>
+                    <div class="method-list-content skipped suite-NilKamal_Testing">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="verifyWishlistPage">verifyWishlistPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-NilKamal_Testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NilKamal_Testing" class="hide-methods passed suite-NilKamal_Testing"> (hide)</a> <!-- hide-methods passed suite-NilKamal_Testing -->
+                      <a href="#" panel-name="suite-NilKamal_Testing" class="show-methods passed suite-NilKamal_Testing"> (show)</a> <!-- show-methods passed suite-NilKamal_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-NilKamal_Testing">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="LoginPageVerification">LoginPageVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.CartPageTest" class="method navigator-link" hash-for-method="PriceValidation">PriceValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.CartPageTest" class="method navigator-link" hash-for-method="clickCheckOut">clickCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="clickLogo">clickLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="login(abc@yahho.com, thisisthepassword)">login(abc@yahho.com, thisisthepassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="login(wrongusername, Asdf@123)">login(wrongusername, Asdf@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="login(prabhatsingh27112001@gmail.com, Wrongpassword)">login(prabhatsingh27112001@gmail.com, Wrongpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="login(prabhatsingh27112001@gmail.com, Asdf@123)">login(prabhatsingh27112001@gmail.com, Asdf@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductListPageTest" class="method navigator-link" hash-for-method="navigatesToProductPage">navigatesToProductPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="pinCodeTest(400 01, Please enter pincode to continue)">pinCodeTest(400 01, Please enter pincode to continue)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="pinCodeTest(190001, Pincode is not serviceable)">pinCodeTest(190001, Pincode is not serviceable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="pinCodeTest(400001, FREE DELIVERY)">pinCodeTest(400001, FREE DELIVERY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="pinCodeTest(, Please enter pincode to continue)">pinCodeTest(, Please enter pincode to continue)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="pinCodeTest(123, Please enter pincode to continue)">pinCodeTest(123, Please enter pincode to continue)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="pinCodeTest(999999, Pincode is not serviceable)">pinCodeTest(999999, Pincode is not serviceable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.CheckoutPageTest" class="method navigator-link" hash-for-method="testCheckoutFlow(ananya.iyer77@gmail.com, India, Ananya, Iyer, T Nagar, Flat 5C, Chennai, Tamil Nadu, 600017,600033, ...)">testCheckoutFlow(ananya.iyer77@gmail.com, India, Ananya, Iyer, T Nagar, Flat 5C, Chennai, Tamil Nadu, 600017,600033, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.CheckoutPageTest" class="method navigator-link" hash-for-method="testCheckoutFlow(rahul.verma88@gmail.com, India, Rahul, Verma, Andheri East, Apt 7A, Mumbai, Maharashtra, 400069,4000...)">testCheckoutFlow(rahul.verma88@gmail.com, India, Rahul, Verma, Andheri East, Apt 7A, Mumbai, Maharashtra, 400069,4000...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.CheckoutPageTest" class="method navigator-link" hash-for-method="testCheckoutFlow(gowtham.dev@gmail.com, India, Gowtham, Reddy, Anna Nagar West, Flat 204, Chennai, Tamil Nadu, 600040...)">testCheckoutFlow(gowtham.dev@gmail.com, India, Gowtham, Reddy, Anna Nagar West, Flat 204, Chennai, Tamil Nadu, 600040...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.CheckoutPageTest" class="method navigator-link" hash-for-method="testCheckoutFlow(priya.sharma99@gmail.com, India, Priya, Sharma, Sector 21, Flat 302, Chandigarh, Punjab, 160022,1600...)">testCheckoutFlow(priya.sharma99@gmail.com, India, Priya, Sharma, Sector 21, Flat 302, Chandigarh, Punjab, 160022,1600...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.CheckoutPageTest" class="method navigator-link" hash-for-method="testCheckoutFlow(arjun.kumar01@gmail.com, India, Arjun, Kumar, MG Road, Flat 12B, Bengaluru, Karnataka, 560001,560034...)">testCheckoutFlow(arjun.kumar01@gmail.com, India, Arjun, Kumar, MG Road, Flat 12B, Bengaluru, Karnataka, 560001,560034...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.CartPageTest" class="method navigator-link" hash-for-method="verifyCartPage">verifyCartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductListPageTest" class="method navigator-link" hash-for-method="verifyCategoryFilterWorks">verifyCategoryFilterWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePageLogo">verifyHomePageLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginNavigation">verifyLoginNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductListPageTest" class="method navigator-link" hash-for-method="verifyMaterialFilterWorks">verifyMaterialFilterWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductListPageTest" class="method navigator-link" hash-for-method="verifyPriceFilterWorks">verifyPriceFilterWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.CartPageTest" class="method navigator-link" hash-for-method="verifyProductCount">verifyProductCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductListPageTest" class="method navigator-link" hash-for-method="verifyProductList">verifyProductList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductPageTest" class="method navigator-link" hash-for-method="verifyProductPage">verifyProductPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifySearchFunctionality">verifySearchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NilKamal_Testing" title="tests.ProductListPageTest" class="method navigator-link" hash-for-method="verifySortBy">verifySortBy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NilKamal_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NilKamal_Testing" class="panel NilKamal_Testing">
+          <div class="suite-NilKamal_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ProductPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWishlistCnt">
+                  </a> <!-- verifyWishlistCnt -->
+                  <span class="method-name">verifyWishlistCnt</span>
+                  <div class="stack-trace">java.lang.AssertionError: wishlist failed expected [0] but found [1]
+	at tests.ProductPageTest.verifyWishlistCnt(ProductPageTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NilKamal_Testing-class-failed -->
+          <div class="suite-NilKamal_Testing-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.ProductPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWishlistPage">
+                  </a> <!-- verifyWishlistPage -->
+                  <span class="method-name">verifyWishlistPage</span>
+                  <div class="stack-trace">java.lang.Throwable: Method tests.ProductPageTest.verifyWishlistPage() on instance tests.ProductPageTest@1a677343 depends on not successfully finished methods 
+[tests.ProductPageTest.verifyWishlistCnt() on instance tests.ProductPageTest@1a677343]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NilKamal_Testing-class-skipped -->
+          <div class="suite-NilKamal_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pinCodeTest(400 01, Please enter pincode to continue)">
+                  </a> <!-- pinCodeTest(400 01, Please enter pincode to continue) -->
+                  <span class="method-name">pinCodeTest</span>
+                  <span class="parameters">(400 01,Please enter pincode to continue)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pinCodeTest(190001, Pincode is not serviceable)">
+                  </a> <!-- pinCodeTest(190001, Pincode is not serviceable) -->
+                  <span class="method-name">pinCodeTest</span>
+                  <span class="parameters">(190001,Pincode is not serviceable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pinCodeTest(400001, FREE DELIVERY)">
+                  </a> <!-- pinCodeTest(400001, FREE DELIVERY) -->
+                  <span class="method-name">pinCodeTest</span>
+                  <span class="parameters">(400001,FREE DELIVERY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pinCodeTest(, Please enter pincode to continue)">
+                  </a> <!-- pinCodeTest(, Please enter pincode to continue) -->
+                  <span class="method-name">pinCodeTest</span>
+                  <span class="parameters">(,Please enter pincode to continue)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pinCodeTest(123, Please enter pincode to continue)">
+                  </a> <!-- pinCodeTest(123, Please enter pincode to continue) -->
+                  <span class="method-name">pinCodeTest</span>
+                  <span class="parameters">(123,Please enter pincode to continue)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pinCodeTest(999999, Pincode is not serviceable)">
+                  </a> <!-- pinCodeTest(999999, Pincode is not serviceable) -->
+                  <span class="method-name">pinCodeTest</span>
+                  <span class="parameters">(999999,Pincode is not serviceable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPage">
+                  </a> <!-- verifyProductPage -->
+                  <span class="method-name">verifyProductPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NilKamal_Testing-class-passed -->
+          <div class="suite-NilKamal_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigatesToProductPage">
+                  </a> <!-- navigatesToProductPage -->
+                  <span class="method-name">navigatesToProductPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCategoryFilterWorks">
+                  </a> <!-- verifyCategoryFilterWorks -->
+                  <span class="method-name">verifyCategoryFilterWorks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMaterialFilterWorks">
+                  </a> <!-- verifyMaterialFilterWorks -->
+                  <span class="method-name">verifyMaterialFilterWorks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPriceFilterWorks">
+                  </a> <!-- verifyPriceFilterWorks -->
+                  <span class="method-name">verifyPriceFilterWorks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductList">
+                  </a> <!-- verifyProductList -->
+                  <span class="method-name">verifyProductList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortBy">
+                  </a> <!-- verifySortBy -->
+                  <span class="method-name">verifySortBy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NilKamal_Testing-class-passed -->
+          <div class="suite-NilKamal_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageLogo">
+                  </a> <!-- verifyHomePageLogo -->
+                  <span class="method-name">verifyHomePageLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFunctionality">
+                  </a> <!-- verifySearchFunctionality -->
+                  <span class="method-name">verifySearchFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NilKamal_Testing-class-passed -->
+          <div class="suite-NilKamal_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PriceValidation">
+                  </a> <!-- PriceValidation -->
+                  <span class="method-name">PriceValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCheckOut">
+                  </a> <!-- clickCheckOut -->
+                  <span class="method-name">clickCheckOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartPage">
+                  </a> <!-- verifyCartPage -->
+                  <span class="method-name">verifyCartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductCount">
+                  </a> <!-- verifyProductCount -->
+                  <span class="method-name">verifyProductCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NilKamal_Testing-class-passed -->
+          <div class="suite-NilKamal_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckoutPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutFlow(ananya.iyer77@gmail.com, India, Ananya, Iyer, T Nagar, Flat 5C, Chennai, Tamil Nadu, 600017,600033, ...)">
+                  </a> <!-- testCheckoutFlow(ananya.iyer77@gmail.com, India, Ananya, Iyer, T Nagar, Flat 5C, Chennai, Tamil Nadu, 600017,600033, ...) -->
+                  <span class="method-name">testCheckoutFlow</span>
+                  <span class="parameters">(ananya.iyer77@gmail.com,India,Ananya,Iyer,T Nagar,Flat 5C,Chennai,Tamil Nadu,600017,600033,9001234567,9011122233,NKCG500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutFlow(rahul.verma88@gmail.com, India, Rahul, Verma, Andheri East, Apt 7A, Mumbai, Maharashtra, 400069,4000...)">
+                  </a> <!-- testCheckoutFlow(rahul.verma88@gmail.com, India, Rahul, Verma, Andheri East, Apt 7A, Mumbai, Maharashtra, 400069,4000...) -->
+                  <span class="method-name">testCheckoutFlow</span>
+                  <span class="parameters">(rahul.verma88@gmail.com,India,Rahul,Verma,Andheri East,Apt 7A,Mumbai,Maharashtra,400069,400001,9871234567,9123456780,NKCG500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutFlow(gowtham.dev@gmail.com, India, Gowtham, Reddy, Anna Nagar West, Flat 204, Chennai, Tamil Nadu, 600040...)">
+                  </a> <!-- testCheckoutFlow(gowtham.dev@gmail.com, India, Gowtham, Reddy, Anna Nagar West, Flat 204, Chennai, Tamil Nadu, 600040...) -->
+                  <span class="method-name">testCheckoutFlow</span>
+                  <span class="parameters">(gowtham.dev@gmail.com,India,Gowtham,Reddy,Anna Nagar West,Flat 204,Chennai,Tamil Nadu,600040,600001,9876543210,9123456789,NKCG500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutFlow(priya.sharma99@gmail.com, India, Priya, Sharma, Sector 21, Flat 302, Chandigarh, Punjab, 160022,1600...)">
+                  </a> <!-- testCheckoutFlow(priya.sharma99@gmail.com, India, Priya, Sharma, Sector 21, Flat 302, Chandigarh, Punjab, 160022,1600...) -->
+                  <span class="method-name">testCheckoutFlow</span>
+                  <span class="parameters">(priya.sharma99@gmail.com,India,Priya,Sharma,Sector 21,Flat 302,Chandigarh,Punjab,160022,160017,9090909090,8888888888,NKCG500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutFlow(arjun.kumar01@gmail.com, India, Arjun, Kumar, MG Road, Flat 12B, Bengaluru, Karnataka, 560001,560034...)">
+                  </a> <!-- testCheckoutFlow(arjun.kumar01@gmail.com, India, Arjun, Kumar, MG Road, Flat 12B, Bengaluru, Karnataka, 560001,560034...) -->
+                  <span class="method-name">testCheckoutFlow</span>
+                  <span class="parameters">(arjun.kumar01@gmail.com,India,Arjun,Kumar,MG Road,Flat 12B,Bengaluru,Karnataka,560001,560034,9012345678,9988776655,NKCG500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NilKamal_Testing-class-passed -->
+          <div class="suite-NilKamal_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageVerification">
+                  </a> <!-- LoginPageVerification -->
+                  <span class="method-name">LoginPageVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickLogo">
+                  </a> <!-- clickLogo -->
+                  <span class="method-name">clickLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(abc@yahho.com, thisisthepassword)">
+                  </a> <!-- login(abc@yahho.com, thisisthepassword) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(abc@yahho.com,thisisthepassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(wrongusername, Asdf@123)">
+                  </a> <!-- login(wrongusername, Asdf@123) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(wrongusername,Asdf@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(prabhatsingh27112001@gmail.com, Wrongpassword)">
+                  </a> <!-- login(prabhatsingh27112001@gmail.com, Wrongpassword) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(prabhatsingh27112001@gmail.com,Wrongpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(prabhatsingh27112001@gmail.com, Asdf@123)">
+                  </a> <!-- login(prabhatsingh27112001@gmail.com, Asdf@123) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(prabhatsingh27112001@gmail.com,Asdf@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginNavigation">
+                  </a> <!-- verifyLoginNavigation -->
+                  <span class="method-name">verifyLoginNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NilKamal_Testing-class-passed -->
+        </div> <!-- panel NilKamal_Testing -->
+        <div panel-name="test-xml-NilKamal_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Project_hackathon\Hackathon_Project\End-to-End.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;NilKamal Testing&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;End-to-End Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.ProductListPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.ProductPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.CartPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.CheckoutPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- End-to-End Test --&gt;
+&lt;/suite&gt; &lt;!-- NilKamal Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NilKamal_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NilKamal Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">End-to-End Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NilKamal_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NilKamal Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">clickOnProduct</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigatesToProductPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">filter</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigatesToProductPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCategoryFilterWorks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyMaterialFilterWorks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyPriceFilterWorks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySortBy</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginPageVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickLogo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">pincode</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">pinCodeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWishlistCnt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWishlistPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">search</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHomePageLogo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NilKamal_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NilKamal Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NilKamal_Testing');
+function tableData_NilKamal_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'navigatesToProductPage')
+data.setCell(0, 2, 'tests.ProductListPageTest')
+data.setCell(0, 3, 6702);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyHomePageLogo')
+data.setCell(1, 2, 'tests.HomePageTest')
+data.setCell(1, 3, 6630);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCheckoutFlow')
+data.setCell(2, 2, 'tests.CheckoutPageTest')
+data.setCell(2, 3, 5825);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductPage')
+data.setCell(3, 2, 'tests.ProductPageTest')
+data.setCell(3, 3, 4119);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'tests.LoginPageTest')
+data.setCell(4, 3, 3887);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyPriceFilterWorks')
+data.setCell(5, 2, 'tests.ProductListPageTest')
+data.setCell(5, 3, 3842);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'login')
+data.setCell(6, 2, 'tests.LoginPageTest')
+data.setCell(6, 3, 3796);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickLogo')
+data.setCell(7, 2, 'tests.LoginPageTest')
+data.setCell(7, 3, 3431);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyMaterialFilterWorks')
+data.setCell(8, 2, 'tests.ProductListPageTest')
+data.setCell(8, 3, 3301);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyCategoryFilterWorks')
+data.setCell(9, 2, 'tests.ProductListPageTest')
+data.setCell(9, 3, 3218);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifySortBy')
+data.setCell(10, 2, 'tests.ProductListPageTest')
+data.setCell(10, 3, 3028);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addToCart')
+data.setCell(11, 2, 'tests.ProductPageTest')
+data.setCell(11, 3, 2828);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'login')
+data.setCell(12, 2, 'tests.LoginPageTest')
+data.setCell(12, 3, 2712);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCheckoutFlow')
+data.setCell(13, 2, 'tests.CheckoutPageTest')
+data.setCell(13, 3, 2623);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCheckoutFlow')
+data.setCell(14, 2, 'tests.CheckoutPageTest')
+data.setCell(14, 3, 2615);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCheckoutFlow')
+data.setCell(15, 2, 'tests.CheckoutPageTest')
+data.setCell(15, 3, 2563);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCheckoutFlow')
+data.setCell(16, 2, 'tests.CheckoutPageTest')
+data.setCell(16, 3, 2444);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySearchFunctionality')
+data.setCell(17, 2, 'tests.HomePageTest')
+data.setCell(17, 3, 2419);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyLoginNavigation')
+data.setCell(18, 2, 'tests.LoginPageTest')
+data.setCell(18, 3, 2136);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'pinCodeTest')
+data.setCell(19, 2, 'tests.ProductPageTest')
+data.setCell(19, 3, 1028);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'pinCodeTest')
+data.setCell(20, 2, 'tests.ProductPageTest')
+data.setCell(20, 3, 990);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'pinCodeTest')
+data.setCell(21, 2, 'tests.ProductPageTest')
+data.setCell(21, 3, 823);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'login')
+data.setCell(22, 2, 'tests.LoginPageTest')
+data.setCell(22, 3, 548);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'clickCheckOut')
+data.setCell(23, 2, 'tests.CartPageTest')
+data.setCell(23, 3, 299);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyCartPage')
+data.setCell(24, 2, 'tests.CartPageTest')
+data.setCell(24, 3, 272);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'pinCodeTest')
+data.setCell(25, 2, 'tests.ProductPageTest')
+data.setCell(25, 3, 240);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'pinCodeTest')
+data.setCell(26, 2, 'tests.ProductPageTest')
+data.setCell(26, 3, 217);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'pinCodeTest')
+data.setCell(27, 2, 'tests.ProductPageTest')
+data.setCell(27, 3, 203);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyProductList')
+data.setCell(28, 2, 'tests.ProductListPageTest')
+data.setCell(28, 3, 189);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'PriceValidation')
+data.setCell(29, 2, 'tests.CartPageTest')
+data.setCell(29, 3, 167);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyWishlistCnt')
+data.setCell(30, 2, 'tests.ProductPageTest')
+data.setCell(30, 3, 146);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyProductCount')
+data.setCell(31, 2, 'tests.CartPageTest')
+data.setCell(31, 3, 67);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'LoginPageVerification')
+data.setCell(32, 2, 'tests.LoginPageTest')
+data.setCell(32, 3, 29);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyWishlistPage')
+data.setCell(33, 2, 'tests.ProductPageTest')
+data.setCell(33, 3, 0);
+window.suiteTableData['NilKamal_Testing']= { tableData: data, tableDiv: 'times-div-NilKamal_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-NilKamal_Testing">
+              </div> <!-- times-div-NilKamal_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NilKamal_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NilKamal Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NilKamal_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ProductPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ProductListPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CartPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CheckoutPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NilKamal_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">basic_setup</span>
+                <span class="method-start">5362 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageLogo</span>
+                <span class="method-start">11865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchFunctionality</span>
+                <span class="method-start">18945 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">basic_setup</span>
+                <span class="method-start">21501 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginNavigation</span>
+                <span class="method-start">22485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginPageVerification</span>
+                <span class="method-start">24709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(abc@yahho.com, thisisthepassword)</span>
+                <span class="method-start">24868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(wrongusername, Asdf@123)</span>
+                <span class="method-start">27683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(prabhatsingh27112001@gmail.com, Wrongpassword)</span>
+                <span class="method-start">28310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(prabhatsingh27112001@gmail.com, Asdf@123)</span>
+                <span class="method-start">32284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickLogo</span>
+                <span class="method-start">36135 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductListPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39649 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductList</span>
+                <span class="method-start">42703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPriceFilterWorks</span>
+                <span class="method-start">42953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCategoryFilterWorks</span>
+                <span class="method-start">46877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMaterialFilterWorks</span>
+                <span class="method-start">50162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySortBy</span>
+                <span class="method-start">53534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigatesToProductPage</span>
+                <span class="method-start">56645 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63381 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPage</span>
+                <span class="method-start">63428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pinCodeTest(123, Please enter pincode to continue)</span>
+                <span class="method-start">67682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pinCodeTest(, Please enter pincode to continue)</span>
+                <span class="method-start">67952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pinCodeTest(400 01, Please enter pincode to continue)</span>
+                <span class="method-start">68310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pinCodeTest(999999, Pincode is not serviceable)</span>
+                <span class="method-start">68575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pinCodeTest(190001, Pincode is not serviceable)</span>
+                <span class="method-start">69451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pinCodeTest(400001, FREE DELIVERY)</span>
+                <span class="method-start">70501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyWishlistCnt</span>
+                <span class="method-start">71610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">72478 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">basic_setup</span>
+                <span class="method-start">75363 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartPage</span>
+                <span class="method-start">75411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductCount</span>
+                <span class="method-start">75744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PriceValidation</span>
+                <span class="method-start">75861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickCheckOut</span>
+                <span class="method-start">76095 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">76485 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutFlow(gowtham.dev@gmail.com, India, Gowtham, Reddy, Anna Nagar West, Flat 204, Chennai, Tamil Nadu, 600040...)</span>
+                <span class="method-start">76719 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutFlow(arjun.kumar01@gmail.com, India, Arjun, Kumar, MG Road, Flat 12B, Bengaluru, Karnataka, 560001,560034...)</span>
+                <span class="method-start">82580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutFlow(priya.sharma99@gmail.com, India, Priya, Sharma, Sector 21, Flat 302, Chandigarh, Punjab, 160022,1600...)</span>
+                <span class="method-start">85251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutFlow(rahul.verma88@gmail.com, India, Rahul, Verma, Andheri East, Apt 7A, Mumbai, Maharashtra, 400069,4000...)</span>
+                <span class="method-start">87754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckoutFlow(ananya.iyer77@gmail.com, India, Ananya, Iyer, T Nagar, Flat 5C, Chennai, Tamil Nadu, 600017,600033, ...)</span>
+                <span class="method-start">90414 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93031 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

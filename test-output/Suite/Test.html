@@ -1,0 +1,456 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<<<<<<< HEAD
+<td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 30 15:48:29 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24254 ms)</td>
+=======
+<<<<<<< HEAD
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+</tr><tr>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<td>Started on:</td><td>Mon Apr 27 14:34:43 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27431 ms)</td>
+=======
+<td>Started on:</td><td>Tue Apr 28 09:38:06 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>19 seconds (19137 ms)</td>
+>>>>>>> 2073c07aa1edfe1591b57871254f8cd71b604f74
+=======
+=======
+>>>>>>> aamir-merge
+<td>Started on:</td><td>Wed Apr 29 16:50:02 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21775 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<<<<<<< HEAD
+<td>Started on:</td><td>Wed Apr 29 16:28:49 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25226 ms)</td>
+=======
+<td>Started on:</td><td>Wed Apr 29 16:29:35 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24514 ms)</td>
+<<<<<<< HEAD
+>>>>>>> 726cc766eb4aaf97c6b643b002225e78083d5f15
+=======
+>>>>>>> 9ad98b32cd0b37cf31928a1e9ef27c10c24fb912
+>>>>>>> origin
+>>>>>>> 7f432014f63827d6aeb8ef92f230a8d408726435
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+=======
+=======
+=======
+>>>>>>> aamir-merge
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<<<<<<< HEAD
+<td title='tests.HomePageTest.verifySearchFunctionality()'><b>verifySearchFunctionality</b><br>Test class: tests.HomePageTest</td>
+<td><div><pre>java.lang.AssertionError: Search result page title does not contain the search term. expected [true] but found [false]
+	at tests.HomePageTest.verifySearchFunctionality(HomePageTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace677217562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace677217562'><pre>java.lang.AssertionError: Search result page title does not contain the search term. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.HomePageTest.verifySearchFunctionality(HomePageTest.java:35)
+=======
+<td title='tests.LoginPageTest.LoginPageVerification()'><b>LoginPageVerification</b><br>Test class: tests.LoginPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at tests.LoginPageTest.LoginPageVerification(LoginPageTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1901663135", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1901663135'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at tests.LoginPageTest.LoginPageVerification(LoginPageTest.java:42)
+>>>>>>> origin
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<<<<<<< HEAD
+<td>0</td>
+<td>tests.LoginPageTest@4c12331b</td></tr>
+</table><p>
+>>>>>>> origin
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+>>>>>>> 2073c07aa1edfe1591b57871254f8cd71b604f74
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<td title='base.BaseTest.setUp()'><b>setUp</b><br>Test class: base.BaseTest<br>Parameters: chrome</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 18.835
+=======
+<<<<<<< HEAD
+<td>1</td>
+<td>tests.HomePageTest@6c6cb480</td></tr>
+<tr>
+<td title='tests.ProductListPageTest.verifyFiltersAndSorting()'><b>verifyFiltersAndSorting</b><br>Test class: tests.ProductListPageTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+>>>>>>> aamir-merge
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e94978d9344526c81356c6ac3c70182, isElementDisplayed {id=f.FFFC288DEC458762F46BAE03292C6F77.d.85C724E8FCBFBDECA7783980483CDC8D.e.1383}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2480038\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 23996, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3e94978d9344526c81356c6ac3c70182)] -&gt; xpath: //span[text()=&apos;Material&apos;]]
+Session ID: 3e94978d9344526c81356c6ac3c70182
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at utils.WaitUtils.waitForClickableElement(WaitUtils.java:31)
+	at pages.ProductListPage.selectMaterial(ProductListPage.java:113)
+	at tests.ProductListPageTest.verifyFiltersAndSorting(ProductListPageTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1830969563", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1830969563'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e94978d9344526c81356c6ac3c70182, isElementDisplayed {id=f.FFFC288DEC458762F46BAE03292C6F77.d.85C724E8FCBFBDECA7783980483CDC8D.e.1383}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2480038\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56644}, goog:processID: 23996, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56644/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3e94978d9344526c81356c6ac3c70182)] -&gt; xpath: //span[text()=&apos;Material&apos;]]
+Session ID: 3e94978d9344526c81356c6ac3c70182
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at utils.WaitUtils.waitForClickableElement(WaitUtils.java:31)
+	at pages.ProductListPage.selectMaterial(ProductListPage.java:113)
+	at tests.ProductListPageTest.verifyFiltersAndSorting(ProductListPageTest.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>tests.ProductListPageTest@36ebc363</td></tr>
+=======
+<td>0</td>
+<td>tests.LoginPageTest@4c12331b</td></tr>
+>>>>>>> origin
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<td title='tests.ProductListPageTest.addProduct()'><b>addProduct</b><br>Test class: tests.ProductListPageTest</td>
+<td></td>
+<td>7</td>
+<td>tests.ProductListPageTest@43bc63a3</td></tr>
+=======
+<td title='tests.HomePageTest.verifyLoginNavigation()'><b>verifyLoginNavigation</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>7</td>
+<td>tests.HomePageTest@6c6cb480</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyHomePageLogo()'><b>verifyHomePageLogo</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@6c6cb480</td></tr>
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> aamir-merge
+<td title='tests.LoginPageTest.login()'><b>login</b><br>Test class: tests.LoginPageTest<br>Parameters: abc@yahho.com, thisisthepassword</td>
+<td></td>
+<td>3</td>
+<td>tests.LoginPageTest@4c12331b</td></tr>
+<tr>
+<td title='tests.LoginPageTest.login()'><b>login</b><br>Test class: tests.LoginPageTest<br>Parameters: prabhatsingh27112001@gmail.com, Wrongpassword</td>
+<td></td>
+<td>4</td>
+<td>tests.LoginPageTest@4c12331b</td></tr>
+<tr>
+<<<<<<< HEAD
+>>>>>>> origin
+=======
+>>>>>>> aamir-merge
+<td title='tests.LoginPageTest.login()'><b>login</b><br>Test class: tests.LoginPageTest<br>Parameters: prabhatsingh27112001@gmail.com, Asdf@123</td>
+<td></td>
+<td>4</td>
+<td>tests.LoginPageTest@4c12331b</td></tr>
+>>>>>>> 7f432014f63827d6aeb8ef92f230a8d408726435
+=======
+<td title='tests.LoginPageTest.login()'><b>login</b><br>Test class: tests.LoginPageTest<br>Parameters: wrongusername, Asdf@123</td>
+<td></td>
+<td>0</td>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<td>tests.LoginPageTest@815b41f</td></tr>
+>>>>>>> 2073c07aa1edfe1591b57871254f8cd71b604f74
+=======
+=======
+>>>>>>> aamir-merge
+<td>tests.LoginPageTest@1f2586d6</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyHomePageLogo()'><b>verifyHomePageLogo</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@6150c3ec</td></tr>
+<<<<<<< HEAD
+>>>>>>> 726cc766eb4aaf97c6b643b002225e78083d5f15
+=======
+>>>>>>> 9ad98b32cd0b37cf31928a1e9ef27c10c24fb912
+>>>>>>> 7f432014f63827d6aeb8ef92f230a8d408726435
+<tr>
+<td title='tests.LoginPageTest.login()'><b>login</b><br>Test class: tests.LoginPageTest<br>Parameters: wrongusername, Asdf@123</td>
+<td></td>
+<td>0</td>
+<<<<<<< HEAD
+<td>tests.LoginPageTest@4c12331b</td></tr>
+=======
+<td>tests.LoginPageTest@1f2586d6</td></tr>
+<tr>
+<<<<<<< HEAD
+<td title='tests.CartPageTest.clickCheckOut()'><b>clickCheckOut</b><br>Test class: tests.CartPageTest</td>
+<td></td>
+<td>7</td>
+<td>tests.CartPageTest@6a6cb05c</td></tr>
+<tr>
+<td title='tests.ProductListPageTest.verifyProductList()'><b>verifyProductList</b><br>Test class: tests.ProductListPageTest</td>
+=======
+<td title='tests.LoginPageTest.login()'><b>login</b><br>Test class: tests.LoginPageTest<br>Parameters: prabhatsingh27112001@gmail.com, Wrongpassword</td>
+<td></td>
+<td>4</td>
+<td>tests.LoginPageTest@1f2586d6</td></tr>
+<tr>
+<td title='tests.LoginPageTest.login()'><b>login</b><br>Test class: tests.LoginPageTest<br>Parameters: prabhatsingh27112001@gmail.com, Asdf@123</td>
+>>>>>>> 726cc766eb4aaf97c6b643b002225e78083d5f15
+<td></td>
+<td>4</td>
+<td>tests.LoginPageTest@1f2586d6</td></tr>
+<tr>
+<td title='tests.LoginPageTest.login()'><b>login</b><br>Test class: tests.LoginPageTest<br>Parameters: abc@yahho.com, thisisthepassword</td>
+<td></td>
+<<<<<<< HEAD
+<td>0</td>
+<td>tests.CartPageTest@6a6cb05c</td></tr>
+<tr>
+<td title='tests.CartPageTest.PriceValidation()'><b>PriceValidation</b><br>Test class: tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.CartPageTest@6a6cb05c</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifyHomePageLogo()'><b>verifyHomePageLogo</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.HomePageTest@36ebc363</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifySearchFunctionality()'><b>verifySearchFunctionality</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>4</td>
+<td>tests.HomePageTest@36ebc363</td></tr>
+<tr>
+<td title='tests.ProductListPageTest.verifySorting()'><b>verifySorting</b><br>Test class: tests.ProductListPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ProductListPageTest@43bc63a3</td></tr>
+<tr>
+<td title='tests.ProductPageTest.verifyAddToCart()'><b>verifyAddToCart</b><br>Test class: tests.ProductPageTest</td>
+<td></td>
+<td>2</td>
+<td>tests.ProductPageTest@702657cc</td></tr>
+<tr>
+<td title='tests.CartPageTest.verifyProductCount()'><b>verifyProductCount</b><br>Test class: tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.CartPageTest@6a6cb05c</td></tr>
+=======
+<td>4</td>
+<td>tests.LoginPageTest@1f2586d6</td></tr>
+<tr>
+<td title='tests.HomePageTest.verifySearchFunctionality()'><b>verifySearchFunctionality</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>tests.HomePageTest@6150c3ec</td></tr>
+<<<<<<< HEAD
+>>>>>>> 726cc766eb4aaf97c6b643b002225e78083d5f15
+=======
+>>>>>>> 9ad98b32cd0b37cf31928a1e9ef27c10c24fb912
+>>>>>>> origin
+>>>>>>> 7f432014f63827d6aeb8ef92f230a8d408726435
+</table><p>
+</body>
+</html>
